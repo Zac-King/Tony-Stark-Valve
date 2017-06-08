@@ -4,7 +4,7 @@ using System.Collections;
 public class ViveExpand : MonoBehaviour
 {
     [SerializeField] GameObject knob;
-    Vector3 origin;
+    public Vector3 origin;
     [SerializeField] float maxDist = 1f;
     Animation anim;
     float animLength;
